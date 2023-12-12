@@ -6,6 +6,7 @@ def main(filename: str):
     pattern = re.compile(
         r"(?=(one|two|three|four|five|six|seven|eight|nine))", re.IGNORECASE
     )
+
     word_to_number = {
         "one": "1",
         "two": "2",
